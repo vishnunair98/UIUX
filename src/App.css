@@ -1,0 +1,143 @@
+body {
+    background-color: #004E98
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.favorite {
+
+}
+
+.jumbotron{
+  background-color: #004E98;
+}
+
+.top-bar {
+    background-color: #004E98;
+    height: 200px;
+}
+
+
+.header{
+  color: #FFE381;
+}
+
+.description{
+  color: #FFE381;
+}
+
+#favorites-button{
+    align: center;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+#reset-button{
+    align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#search-bar{
+    /* margin-top: 2px; */
+
+    width: 210px;
+    height: 20px;
+    align-items: center;
+    margin: auto;
+}
+
+.dropdown-buttons {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-gap: 10px;
+    margin-bottom: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.movie-cards {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.filter-list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+ul {
+    list-style: none;
+}
+
+.movie-card {
+    display: flex;
+
+}
+
+.card-container {
+    width:240px;
+}
+
+.rule {
+    margin-top: 50px;
+    background-color: #240115;
+    height: 2px;
+}
+
+.favorite-icon {
+    background-color: #004E98;
+}
+.rating .year .boxoffice-number  {
+    display: flex;
+    flex-flow: wrap;
+}
+.movie-info {
+    color: #FFE381;
+}
+
+.btn-primary{
+  background-color: #B56161;
+  border-color: #B56161;
+}
+
+.no-movies {
+    color: #FFE381;
+}
+
+
+
+.textboxes {
+    color: #FFE381;
+}
+.fave-display-text {
+    color: #C0C0C0;
+    text-decoration: underline;
+}
